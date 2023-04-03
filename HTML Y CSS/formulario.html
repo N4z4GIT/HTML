@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form>
+        <form action="enviar.php" method="get">  
+           <fieldset>
+            <legend></legend>
+          
+        <label for="nombre">NOMBRE:</label>
+        <input type="text" id="nombre" placeholder="ingrese su nombre">
+            <br> <br>
+
+        <label for="mail">E-MAIL:</label>
+        <input type="email" id="email" required>
+            <br> <br>
+
+        <label for="pass"> CONTRASEÑA:</label>
+        <input type="password" name="pass" id="pass" required>
+            <br> 
+        </fieldset>
+        <br> <br>
+       
+        <label for="multi">DEJE SU MENSAJE:</label>
+        <br> <br>
+
+        <textarea name="multi" id="multi" cols="30" rows="10"></textarea>
+             <br> <br>
+        
+        <label for="adjunto">ADJUNTAR</label> 
+        <input type="file" id="adjunto">
+            <br> <br>
+        <label for="curso">Te gusta el curso?</label>
+        <input type="radio" name="curso" id="yes">SI
+        <input type="radio" name="curso" id="no">NO
+            <br> <br>
+        
+        <label for="acepta">ACEPTA?</label>
+        <input type="checkbox" name="acepta" id="Term. y Cond."> TERM. Y COND.
+        <input type="checkbox" name="acepta" id="news"> RECIBE MENS.
+            <br> <br>
+
+        <label for="paises">ELIJA EL PAIS:</label>
+        <select name="paises" id="paises">
+            <option value="arg" id="arg">ARGENTINA</option>
+            <option value="chi">COLOMBIA</option>
+            <option value="per">ITALIA</option>
+        </select> 
+
+
+        <input type="submit" value="Enviar ahora">
+        <input type="reset" value="Borrar todo">
+        <input type="button" value="Para JS">
+
+    </form>
+
+  
+</body>
+</html>
